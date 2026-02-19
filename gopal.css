@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    min-height:732px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 90%;
+    min-height: 732px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.box1{
+    width:100%;
+    min-height:432px;
+    background-color:white;
+    display: flex;
+}
+.box2{
+    width:100%;
+    min-height:270px;
+    background-color: white;
+    display: flex;
+}
+.box1a{
+    width:50%;
+    min-height:416px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1a img{
+    width:75%;
+    height:400px;
+}
+.box1b{
+    width:50%;
+    min-height:416px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px
+}
+.box2a{
+    width:33.33%;
+    min-height:270px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+.box2b{
+    width:43.33%;
+    min-height:270px;
+    background-color: white;
+     display: flex;
+    flex-direction: column;
+    gap:15px
+}
+.box2c{
+    width:20%;
+    min-height:270px;
+    background-color: white;
+     display: flex;
+    flex-direction: column;
+    gap:15px
+}
+.dot{
+    display: flex;
+    gap:15px
+}
+.dot h3{
+    font-size: 25px;
+}
+.dot div{
+    font-size: 30px;
+}
+.homedot{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+@media only screen and (min-width:800px) and (max-width:1000px){
+    .box{
+        width: 100%;
+    }
+    .box1a{
+      padding-left:15px  
+    }
+    .box1b{
+      padding-left:15px  
+    }
+    .box2a{
+      padding-left:15px  
+    }
+    .box2b{
+      padding-left:15px  
+    }
+    .box2c{
+      padding-left:15px  
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:800px){
+    .box{
+        width: 100%;
+        padding:0px 5px ;
+    }
+    .box1{
+        flex-direction: column;
+    }
+    .box2{
+        flex-direction: column;
+    }
+    .box1a{
+      width:100%  
+    }
+    .box1a img{
+        width:400px
+    }
+    .box1b{
+       width:100% ;
+       justify-content: center;
+       align-items: center;
+    }
+    .box2a{
+       width:100%   
+    }
+    .box2b{
+       width:100%  
+    }
+    .box2c{
+     width:100%   
+    }
+}
+
+
+@media only screen and (min-width:315px) and (max-width:800px){
+    .box1a img{
+        width:300px
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:315px){
+    .box1a img{
+        width:290px
+    }
+}
